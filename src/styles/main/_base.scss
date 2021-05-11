@@ -1,0 +1,69 @@
+@font-face {
+  font-family: DIN 30640 Std Neuzeit Grotesk Light;
+  src: url("/src/styles/fonts/Font.woff");
+}
+  @font-face {
+  font-family: Futura Bk BT;
+  src: url("/src/styles/fonts/FuturaBookFont.ttf");
+}
+  :root {
+    --heading-font-family : "DIN 30640 Std Neuzeit Grotesk Light", sans-serif;
+    --heading-font-weight : 300;
+    --heading-font-style  : normal;
+    --text-font-family : Futura Bk BT, sans-serif;
+    --text-font-weight : 400;
+    --text-font-style  : normal;
+    --base-text-font-size   : 14px;
+    --default-text-font-size: 14px;
+    --background          : #efefef;
+    --background-rgb      : 255, 255, 255;
+    --light-background    : #ffffff;
+    --light-background-rgb: 255, 255, 255;
+    --heading-color       : #303030;
+    --text-color          : #303030;
+    --text-color-rgb      : 48, 48, 48;
+    --text-color-light    : #595959;
+    --text-color-light-rgb: 89, 89, 89;
+    --link-color          : #000000;
+    --link-color-rgb      : 0, 0, 0;
+    --border-color        : #e0e0e0;
+    --border-color-rgb    : 224, 224, 224;
+    --button-background    : #f5db8b;
+    --button-background-rgb: 245, 219, 139;
+    --button-text-color    : #303030;
+    --header-background       : #ffffff;
+    --header-heading-color    : #303030;
+    --header-light-text-color : #595959;
+    --header-border-color     : #e0e0e0;
+    --header-height: 58px;
+    --footer-background    : #ffffff;
+    --footer-text-color    : #595959;
+    --footer-heading-color : #303030;
+    --footer-border-color  : #e6e6e6;
+    --navigation-background: #1c1b1b;
+    --navigation-background-rgb: 28, 27, 27;
+    --navigation-text-color      : #303030;
+    --navigation-text-color-light: rgba(255, 255, 255, 0.5);
+    --navigation-border-color: rgba(255, 255, 255, 0.25);
+    --newsletter-popup-background     : #ffffff;
+    --newsletter-popup-text-color     : #303030;
+    --newsletter-popup-text-color-rgb : 48, 48, 48;
+    --secondary-elements-background       : #fce7a8;
+    --secondary-elements-background-rgb   : 252, 231, 168;
+    --secondary-elements-text-color       : #303030;
+    --secondary-elements-text-color-light : rgba(48, 48, 48, 0.5);
+    --secondary-elements-border-color     : rgba(48, 48, 48, 0.25);
+    --product-sale-price-color    : #f94c43;
+    --product-sale-price-color-rgb: 249, 76, 67;
+    /* Products */
+    --horizontal-spacing-four-products-per-row: 60px;
+        --horizontal-spacing-two-products-per-row : 60px;
+    --vertical-spacing-four-products-per-row: 60px;
+        --vertical-spacing-two-products-per-row : 75px;
+    /* Animation */
+    --drawer-transition-timing: cubic-bezier(0.645, 0.045, 0.355, 1);
+    --header-base-height: 80px; /* We set a default for browsers that do not support CSS variables */
+    /* Cursors */
+    --cursor-zoom-in-svg    : url(//cdn.shopify.com/s/files/1/0530/5427/5767/t/12/assets/cursor-zoom-in.svg?v=16933702004400051145);
+    --cursor-zoom-in-2x-svg : url(//cdn.shopify.com/s/files/1/0530/5427/5767/t/12/assets/cursor-zoom-in-2x.svg?v=16388502707201379387);
+  }

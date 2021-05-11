@@ -1,36 +1,260 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Simple Webpack Starter</title>
-    <meta name="description" content="A simple and quick starter project for building basic websites using SCSS and Bootstrap 4 & JavaScript (ES6)">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-  </head>
-  <body>
-    <div class="container h-100 align-items-center d-flex justify-content-center">
-      <div class="row">
-        <header class="col-12 mb-3">
-          <h1 class="text-center">Simple Webpack Starter Project</h1> 
-          <h5 class="text-center">Light weight starter project for basic web dev.   &nbsp;&#128640;</h5> 
-        </header>
-        <main>
-          <ul>
-            <li><i class="devicon-webpack-plain"></i></li>
-            <li><i class="devicon-html5-plain"></i></li>
-            <li><i class="devicon-javascript-plain"></i></li>
-            <li><i class="devicon-bootstrap-plain"></i></li>
-            <li><i class="devicon-sass-original"></i></li>
-            <li><i class="devicon-docker-plain"></i></li>
-          </ul>
-          <div class="btn-container">
-              <button type="button" onclick='window.location.href = "https://github.com/henk-badenhorst/Simple-Webpack-Starter"' class="btn btn-outline-primary"><i class="devicon-github-plain"></i>GitHub</button>
-              <button type="button" onclick='window.location.href = "https://henk.io"' class="btn btn-outline-secondary">Say Hello</button>
+<head>
+  <meta charset="UTF-8" />
+  <meta
+    name="description"
+    content="A simple and quick starter project for building basic websites using SCSS and Bootstrap 4 & JavaScript (ES6)"
+  />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+</head>
+<body>
+  <div class="header">
+    <section class="header header--shipping">
+      <div class="header__wrapper">
+        <p class="header__content heading">
+          FREE SHIPPING ON ORDERS OVER $70
+        </p>
+      </div>
+    </section>
+  </div>
+  <div class="main-carousel">
+    <div class="header header--transparent">
+      <section class="menu">
+        <div class="menu__wrapper">
+          <div class="menu__icon-drawer">
+            <button class="button-drawer">
+              <i class="fal fa-bars button-open"></i>
+            </button>
           </div>
-        </main>
+          <div class="menu__logo">
+            <h1 class="header__logo">
+              <a href="#" class="header__logo-link heading heading__subheading">prestige</a>
+            </h1>
+          </div>
+          <div class="menu-drawer__icon">
+            <button class="button-drawer button--search">
+              <i class="fal fa-search"></i>
+            </button>
+            <button class="button-drawer shopping-bag">
+              <i class="fal fa-shopping-bag"></i>
+            </button>
+          </div>
+        </div>
+        <div class="search">
+          <div class="search__inner">
+            <div class="search__bar">
+              <form class="search__form">
+                <button class="button-drawer">
+                  <i class="fal fa-search"></i>
+                </button>
+                <input type="text" name="q" class="search__input heading" placeholder="search...">
+              </form>
+              <button class="button-drawer button--close">
+                <i class="fal fa-times"></i>
+              </button>
+            </div>
+            <div class="search__result"></div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="main__item--swiper swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-content swiper-slide">
+          <div class="swiper-slide__item swiper-slide__image image-1">
+            <div class="swiper-slide__info info--bottom-left">
+              <div class="heading info__content">
+                <h3 class="heading heading__subheading--small">new collection</h3>
+                <h2 class="heading heading__subheading">Beauties</h2>
+                <div class="info__button content__item">
+                  <div class="info__button--color button button--hyperion">
+                    <span class="heading__subheading--small">men</span>
+                  </div>
+                  <div class="info__button--color button button--hyperion">
+                    <span class="heading__subheading--small">women</span>
+                  </div>
+                </div>
+              </div>                                     
+            </div>                   
+          </div>
+        </div>
+        <div class="swiper-slide swiper-content">
+          <div class="swiper-slide__item swiper-slide__image image-2">
+            <div class="swiper-slide__info info--bottom-left">
+              <div class="heading info__content">
+                <h3 class="heading heading__subheading--small">8 colors, from $290</h3>
+                <h2 class="heading heading__subheading">Le Petit Violette</h2>
+                <div class="info__button content__item">
+                  <div class="info__button--color button button--hyperion">
+                    <span class="heading__subheading--small">Shop It</span>
+                  </div>
+                  <div class="info__button--color button button--hyperion">
+                    <span class="heading__subheading--small">All women</span>
+                  </div>
+                </div>
+              </div>                                     
+            </div>                     
+          </div>
+        </div>
+        <div class="swiper-slide swiper-content">
+          <div class="swiper-slide__item swiper-slide__image image-3">
+            <div class="swiper-slide__info info--bottom-left">
+              <div class="heading info__content">
+                <h3 class="heading heading__subheading--small">Le Nouveau Cartable</h3>
+                <h2 class="heading heading__subheading">Back In Stock</h2>
+                <div class="info__button content__item">
+                  <div class="info__button--color button button--hyperion">
+                    <span class="heading__subheading--small">Shop It</span>
+                  </div>
+                  <div class="info__button--color button button--hyperion">
+                    <span class="heading__subheading--small">All colors</span>
+                  </div>
+                </div>
+              </div>                                     
+            </div>                     
+          </div>
+        </div>
+        <div class="swiper-slide swiper-content">
+          <div class="swiper-slide__item swiper-slide__image image-1">
+            <div class="swiper-slide__info info--bottom-left">
+              <div class="heading info__content">
+                <h3 class="heading heading__subheading--small">new collection</h3>
+                <h2 class="heading heading__subheading">Beauties</h2>
+                <div class="info__button content__item">
+                  <div class="info__button--color button button--hyperion">
+                    <span class="heading__subheading--small">men</span>
+                  </div>
+                  <div class="info__button--color button button--hyperion">
+                    <span class="heading__subheading--small">women</span>
+                  </div>
+                </div>
+              </div>                                  
+            </div>                    
+          </div>
+        </div>
+        <div class="swiper-slide swiper-content">
+          <div class="swiper-slide__item swiper-slide__image image-2">
+            <div class="swiper-slide__info info--bottom-left">
+              <div class="heading info__content">
+                <h3 class="heading heading__subheading--small">8 colors, from $290</h3>
+                <h2 class="heading heading__subheading">Le Petit Violette</h2>
+                <div class="info__button content__item">
+                  <div class="info__button--color button button--hyperion">
+                    <span class="heading__subheading--small">Shop It</span>
+                  </div>
+                  <div class="info__button--color button button--hyperion">
+                    <span class="heading__subheading--small">All women</span>
+                  </div>
+                </div>
+              </div>                                     
+            </div>                  
+          </div>
+        </div>
+        <div class="swiper-slide swiper-content">
+          <div class="swiper-slide__item swiper-slide__image image-3">
+            <div class="swiper-slide__info info--bottom-left">
+              <div class="heading info__content">
+                <h3 class="heading heading__subheading--small">Le Nouveau Cartable</h3>
+                <h2 class="heading heading__subheading">Back In Stock</h2>
+                <div class="info__button content__item">
+                  <div class="info__button--color button button--hyperion">
+                    <span class="heading__subheading--small">Shop It</span>
+                  </div>
+                  <div class="info__button--color button button--hyperion">
+                    <span class="heading__subheading--small">All colors</span>
+                  </div>
+                </div>
+              </div>                                     
+            </div>                    
+          </div>
+        </div>
       </div>
     </div>
-    <footer>
-      <p class="text-right"><a href="http://www.henk.io" target="_blank">henk.io</a></p>
-    </footer>
-  </body>
+  </div>
+  <div class="menu-drawer">
+    <div class="menu-drawer__icon">
+      <button class="button-drawer">
+        <span class="material-icons button-close">
+          close
+        </span>
+      </button>
+    </div>
+    <div class="menu-drawer__content">
+      <div class="menu-drawer__main">
+        <div class="main__item">
+          <div class="item--content__text">
+            <div class="button-drawer button-drawer--shop heading heading__subheading--small">shop</div>
+            <button class="button-drawer button-drawer--open">
+              <i class="fal fa-plus icon-open"></i>
+              <i class="fal fa-minus icon-close"></i>
+            </button>
+          </div>
+          <div class="main__item--inner">
+            <div class="item--content__text">
+              <button class="button-drawer heading heading__subheading--small button--inner">categories</button>
+              <i class="fal fa-plus"></i>
+            </div>
+            <div class="item--content__text">
+              <button class="button-drawer heading heading__subheading--small button--inner">models</button>
+              <i class="fal fa-plus"></i>
+            </div>
+            <div class="item--content__text">
+              <button class="button-drawer heading heading__subheading--small button--inner">popular colors</button>
+              <i class="fal fa-plus"></i>
+            </div>
+          </div>
+        </div>
+        <div class="main__item heading heading__subheading--small">
+          <button class="button-drawer heading heading__subheading--small">blog</button>
+        </div>
+        <div class="main__item heading heading__subheading--small">
+          <button class="button-drawer heading heading__subheading--small">about</button>
+        </div>
+        <div class="main__item heading heading__subheading--small">
+          <button class="button-drawer heading heading__subheading--small">faq</button>
+        </div>
+        <div class="main__item-footer">
+          <span class="footer__item">Account</span>
+        </div>
+      </div>
+      <div class="menu-drawer__footer">
+        <ul class="footer__list">
+          <li class="footer__item">
+            <a href="#">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+          </li>
+          <li class="footer__item">
+            <a href="#">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+          <li class="footer__item">
+            <a href="#">
+              <i class="fab fa-pinterest"></i>
+            </a>
+          </li>
+          <li class="footer__item">
+            <a href="#">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li class="footer__item">
+            <a href="#">
+              <i class="fab fa-vimeo-v"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+</body>
 </html>
+
+
+<!-- 110 -->

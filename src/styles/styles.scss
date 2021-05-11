@@ -1,5 +1,6 @@
 @import './bootstrap/bootstrap';
 @import './fonts/devicons';
-@import 'variables';
-@import 'starter';
-@import 'footer';
+@import './main/components/button';
+@import './main/layout';
+@import './main/vendor';
+

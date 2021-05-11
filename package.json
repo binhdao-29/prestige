@@ -52,6 +52,7 @@
     "webpack-merge": "^4.2.1"
   },
   "dependencies": {
+    "@material/drawer": "^11.0.0",
     "bootstrap": "^4.3.1",
     "core-js": "^3.0.1",
     "jquery": "^3.5.0"

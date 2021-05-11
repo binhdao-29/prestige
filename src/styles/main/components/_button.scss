@@ -1,0 +1,76 @@
+@import '../base';
+
+.content__item {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	z-index: 1;
+	pointer-events: none;
+}
+
+.button {
+	pointer-events: auto;
+	cursor: pointer;
+	background: transparent;
+	padding: 1.5rem 3rem;
+	margin: 0;
+	font-family: inherit;
+	font-size: inherit;
+	position: relative;
+	display: inline-block;
+}
+
+.button::before,
+.button::after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.button--hyperion {
+	font-family: inherit;
+	font-weight: inherit;
+	padding: 1rem 1.5rem;
+	border: 1px solid #000;
+	overflow: hidden;
+	color: var(--button-text-color);
+}
+
+.button--hyperion span {
+	display: block;
+	position: relative;
+}
+
+.button--hyperion > span {
+	overflow: hidden;
+}
+
+.button--hyperion > span {
+  font-weight: 200;
+	overflow: hidden;
+	mix-blend-mode: difference;
+}
+
+.button--hyperion:hover > span {
+	font-weight: 200;
+}
+
+.button--hyperion::before {
+	content: '';
+	background: rgb(250, 250, 250);
+	transition: transform 0.4s cubic-bezier(0.7, 0, 0.2, 1);
+	transform-origin: 100% 50%;
+}
+
+.button--hyperion:hover::before {
+	transform: scale3d(0,1,1);
+	transform-origin: 0% 50%;
+}
+
+.info__button {
+	margin-top: 20px;
+}
