@@ -13,7 +13,7 @@
 </head>
 <body>
   <div class="header">
-    <section class="header header--shipping">
+    <section class="header header__shipping">
       <div class="header__wrapper">
         <p class="header__content heading">
           FREE SHIPPING ON ORDERS OVER $70
@@ -25,21 +25,22 @@
     <div class="header header--transparent">
       <section class="menu">
         <div class="menu__wrapper">
-          <div class="menu__icon-drawer">
-            <button class="button-drawer">
-              <i class="fal fa-bars button-open"></i>
-            </button>
-          </div>
+          <button class="button__drawer">
+            <i class="fal fa-bars button--open"></i>
+          </button>
           <div class="menu__logo">
             <h1 class="header__logo">
-              <a href="#" class="header__logo-link heading heading__subheading">prestige</a>
+              <a href="#" class="logo__link heading heading__subheading">
+                <img class="logo__image" src="//cdn.shopify.com/s/files/1/0011/6680/3007/files/Logo-black-2x_130x.png?v=1522600583" srcset="//cdn.shopify.com/s/files/1/0011/6680/3007/files/Logo-black-2x_130x.png?v=1522600583 1x, //cdn.shopify.com/s/files/1/0011/6680/3007/files/Logo-black-2x_130x@2x.png?v=1522600583 2x" alt="">
+                <img class="logo__image logo__image--transparent" src="//cdn.shopify.com/s/files/1/0011/6680/3007/files/Logo-white-2x_130x.png?v=1522600599" srcset="//cdn.shopify.com/s/files/1/0011/6680/3007/files/Logo-white-2x_130x.png?v=1522600599 1x, //cdn.shopify.com/s/files/1/0011/6680/3007/files/Logo-white-2x_130x@2x.png?v=1522600599 2x" alt="">
+              </a>
             </h1>
           </div>
-          <div class="menu-drawer__icon">
-            <button class="button-drawer button--search">
+          <div class="menu__icon">
+            <button class="button__drawer button--search">
               <i class="fal fa-search"></i>
             </button>
-            <button class="button-drawer shopping-bag">
+            <button class="button__drawer shopping-bag">
               <i class="fal fa-shopping-bag"></i>
             </button>
           </div>
@@ -48,12 +49,12 @@
           <div class="search__inner">
             <div class="search__bar">
               <form class="search__form">
-                <button class="button-drawer">
+                <button class="button__drawer">
                   <i class="fal fa-search"></i>
                 </button>
                 <input type="text" name="q" class="search__input heading" placeholder="search...">
               </form>
-              <button class="button-drawer button--close">
+              <button class="button__drawer button--close">
                 <i class="fal fa-times"></i>
               </button>
             </div>
@@ -64,9 +65,9 @@
     </div>
     <div class="main__item--swiper swiper-container">
       <div class="swiper-wrapper">
-        <div class="swiper-content swiper-slide">
-          <div class="swiper-slide__item swiper-slide__image image-1">
-            <div class="swiper-slide__info info--bottom-left">
+        <div class="swiper-slide">
+          <div class="slide__item image-1">
+            <div class="slide__info info--bottom-left">
               <div class="heading info__content">
                 <h3 class="heading heading__subheading--small">new collection</h3>
                 <h2 class="heading heading__subheading">Beauties</h2>
@@ -83,8 +84,8 @@
           </div>
         </div>
         <div class="swiper-slide swiper-content">
-          <div class="swiper-slide__item swiper-slide__image image-2">
-            <div class="swiper-slide__info info--bottom-left">
+          <div class="slide__item image-2">
+            <div class="slide__info info--bottom-left">
               <div class="heading info__content">
                 <h3 class="heading heading__subheading--small">8 colors, from $290</h3>
                 <h2 class="heading heading__subheading">Le Petit Violette</h2>
@@ -100,9 +101,9 @@
             </div>                     
           </div>
         </div>
-        <div class="swiper-slide swiper-content">
-          <div class="swiper-slide__item swiper-slide__image image-3">
-            <div class="swiper-slide__info info--bottom-left">
+        <div class="swiper-slide">
+          <div class="slide__item image-3">
+            <div class="slide__info info--bottom-left">
               <div class="heading info__content">
                 <h3 class="heading heading__subheading--small">Le Nouveau Cartable</h3>
                 <h2 class="heading heading__subheading">Back In Stock</h2>
@@ -119,8 +120,8 @@
           </div>
         </div>
         <div class="swiper-slide swiper-content">
-          <div class="swiper-slide__item swiper-slide__image image-1">
-            <div class="swiper-slide__info info--bottom-left">
+          <div class="slide__item image-1">
+            <div class="slide__info info--bottom-left">
               <div class="heading info__content">
                 <h3 class="heading heading__subheading--small">new collection</h3>
                 <h2 class="heading heading__subheading">Beauties</h2>
@@ -136,9 +137,9 @@
             </div>                    
           </div>
         </div>
-        <div class="swiper-slide swiper-content">
-          <div class="swiper-slide__item swiper-slide__image image-2">
-            <div class="swiper-slide__info info--bottom-left">
+        <div class="swiper-slide">
+          <div class="slide__item image-2">
+            <div class="slide__info info--bottom-left">
               <div class="heading info__content">
                 <h3 class="heading heading__subheading--small">8 colors, from $290</h3>
                 <h2 class="heading heading__subheading">Le Petit Violette</h2>
@@ -154,9 +155,9 @@
             </div>                  
           </div>
         </div>
-        <div class="swiper-slide swiper-content">
-          <div class="swiper-slide__item swiper-slide__image image-3">
-            <div class="swiper-slide__info info--bottom-left">
+        <div class="swiper-slide">
+          <div class="slide__item image-3">
+            <div class="slide__info info--bottom-left">
               <div class="heading info__content">
                 <h3 class="heading heading__subheading--small">Le Nouveau Cartable</h3>
                 <h2 class="heading heading__subheading">Back In Stock</h2>
@@ -173,55 +174,86 @@
           </div>
         </div>
       </div>
+      <div class="swiper-pagination"></div>
     </div>
   </div>
-  <div class="menu-drawer">
-    <div class="menu-drawer__icon">
-      <button class="button-drawer">
+  <div class="menu__drawer">
+    <div class="menu__icon">
+      <button class="button__drawer">
         <span class="material-icons button-close">
           close
         </span>
       </button>
     </div>
-    <div class="menu-drawer__content">
-      <div class="menu-drawer__main">
+    <div class="drawer__content">
+      <div class="content">
         <div class="main__item">
-          <div class="item--content__text">
-            <div class="button-drawer button-drawer--shop heading heading__subheading--small">shop</div>
-            <button class="button-drawer button-drawer--open">
+          <div class="text__item">
+            <div class="button__drawer button-drawer--shop heading heading__subheading--small">shop</div>
+            <button class="button__drawer button-drawer--open">
               <i class="fal fa-plus icon-open"></i>
               <i class="fal fa-minus icon-close"></i>
             </button>
           </div>
           <div class="main__item--inner">
-            <div class="item--content__text">
-              <button class="button-drawer heading heading__subheading--small button--inner">categories</button>
-              <i class="fal fa-plus"></i>
+            <div class="text__item--inner">
+              <div class="text__wrapper text__item">
+                <button class="button__drawer heading heading__subheading--small button--inner">categories</button>
+                <button class="button__drawer button-drawer--open item--open">
+                  <i class="fal fa-plus btn--open-small icon-open"></i>
+                  <i class="fal fa-minus btn--open-small icon-close"></i>
+                </button>
+              </div>
+              <div class="menu--small">
+                <ul class="content--small">
+                  <li class="list__item text__item">
+                    <button class="button__drawer">all Products</button>
+                  </li>
+                  <li class="list__item text__item">
+                    <button class="button__drawer">briefcases</button>
+                  </li>
+                  <li class="list__item text__item">
+                    <button class="button__drawer">handbags</button>
+                  </li>
+                  <li class="list__item text__item">
+                    <button class="button__drawer">backpacks</button>
+                  </li>
+                  <li class="list__item text__item">
+                    <button class="button__drawer">pochettes</button>
+                  </li>
+                </ul>
+              </div>
             </div>
-            <div class="item--content__text">
-              <button class="button-drawer heading heading__subheading--small button--inner">models</button>
-              <i class="fal fa-plus"></i>
+            <div class="text__item">
+              <button class="button__drawer heading heading__subheading--small button--inner">models</button>
+              <button class="button__drawer button-drawer--open">
+                <i class="fal fa-plus icon-open"></i>
+                <i class="fal fa-minus icon-close"></i>
+              </button>
             </div>
-            <div class="item--content__text">
-              <button class="button-drawer heading heading__subheading--small button--inner">popular colors</button>
-              <i class="fal fa-plus"></i>
+            <div class="text__item">
+              <button class="button__drawer heading heading__subheading--small button--inner">popular colors</button>
+              <button class="button__drawer button-drawer--open">
+                <i class="fal fa-plus icon-open"></i>
+                <i class="fal fa-minus icon-close"></i>
+              </button>
             </div>
           </div>
         </div>
         <div class="main__item heading heading__subheading--small">
-          <button class="button-drawer heading heading__subheading--small">blog</button>
+          <button class="button__drawer heading heading__subheading--small">blog</button>
         </div>
         <div class="main__item heading heading__subheading--small">
-          <button class="button-drawer heading heading__subheading--small">about</button>
+          <button class="button__drawer heading heading__subheading--small">about</button>
         </div>
         <div class="main__item heading heading__subheading--small">
-          <button class="button-drawer heading heading__subheading--small">faq</button>
+          <button class="button__drawer heading heading__subheading--small">faq</button>
         </div>
         <div class="main__item-footer">
           <span class="footer__item">Account</span>
         </div>
       </div>
-      <div class="menu-drawer__footer">
+      <div class="footer">
         <ul class="footer__list">
           <li class="footer__item">
             <a href="#">
