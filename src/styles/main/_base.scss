@@ -1,16 +1,18 @@
 @font-face {
-  font-family: DIN 30640 Std Neuzeit Grotesk Light;
-  src: url("/src/styles/fonts/Font.woff");
+  font-family: 'Montserrat', sans-serif;
+  src: url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
 }
-  @font-face {
-  font-family: Futura Bk BT;
-  src: url("/src/styles/fonts/FuturaBookFont.ttf");
+
+@font-face {
+  font-family: 'Nunito Sans', sans-serif;
+  src: url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Nunito+Sans:wght@200&display=swap');
 }
+
   :root {
-    --heading-font-family : "DIN 30640 Std Neuzeit Grotesk Light", sans-serif;
+    --heading-font-family : 'Montserrat', sans-serif;
     --heading-font-weight : 300;
     --heading-font-style  : normal;
-    --text-font-family : Futura Bk BT, sans-serif;
+    --text-font-family : 'Nunito Sans', sans-serif;
     --text-font-weight : 400;
     --text-font-style  : normal;
     --base-text-font-size   : 14px;
